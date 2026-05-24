@@ -1,21 +1,14 @@
-import type { Metadata } from "next";
-import localFont from "next/font/local";
+import type { Metadata, Viewport } from "next";
 import "./globals.css";
 
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
-});
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
-  weight: "100 900",
-});
-
 export const metadata: Metadata = {
-  title: "Travel App",
-  description: "Your travel planning app",
+  title: "Vaya — Travel, Slowly",
+  description:
+    "A travel guide trained on real taste, not algorithms. Discover places only locals know to recommend.",
+};
+
+export const viewport: Viewport = {
+  themeColor: "#F5EFE6",
 };
 
 export default function RootLayout({
@@ -24,12 +17,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        {children}
-      </body>
+    <html lang="en" className="bg-sand">
+      <body className="font-sans antialiased">{children}</body>
     </html>
   );
 }
