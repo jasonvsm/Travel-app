@@ -1,5 +1,8 @@
 "use client";
 
+import RecommendationResults from "@/components/RecommendationResults";
+import { getRecommendations, type TripAnswers } from "@/lib/recommend";
+import type { Place } from "@/types/place";
 import { FormEvent, useState } from "react";
 
 const TRAVELING_WITH_OPTIONS = [
@@ -20,15 +23,7 @@ const INTEREST_OPTIONS = [
   "Hidden gems",
 ] as const;
 
-type FormAnswers = {
-  travelingWith: string;
-  days: string;
-  interests: string[];
-  idealDay: string;
-  dietary: string;
-};
-
-const emptyAnswers: FormAnswers = {
+const emptyAnswers: TripAnswers = {
   travelingWith: "",
   days: "",
   interests: [],
@@ -36,9 +31,15 @@ const emptyAnswers: FormAnswers = {
   dietary: "",
 };
 
-export default function TravelQuestionnaire() {
-  const [form, setForm] = useState<FormAnswers>(emptyAnswers);
-  const [submitted, setSubmitted] = useState<FormAnswers | null>(null);
+type TravelQuestionnaireProps = {
+  places: Place[];
+};
+
+export default function TravelQuestionnaire({ places }: TravelQuestionnaireProps) {
+  const [form, setForm] = useState<TripAnswers>(emptyAnswers);
+  const [recommendations, setRecommendations] = useState<
+    ReturnType<typeof getRecommendations> | null
+  >(null);
 
   function handleInterestChange(interest: string, checked: boolean) {
     setForm((prev) => {
@@ -55,10 +56,32 @@ export default function TravelQuestionnaire() {
 
   function handleSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
-    setSubmitted({ ...form });
+    setRecommendations(getRecommendations(places, form));
+  }
+
+  function handleStartOver() {
+    setForm(emptyAnswers);
+    setRecommendations(null);
   }
 
   const maxInterestsReached = form.interests.length >= 3;
+
+  if (recommendations) {
+    return (
+      <div className="w-full max-w-3xl space-y-4">
+        <header>
+          <h2 className="text-lg font-semibold text-gray-900">
+            Your recommendations
+          </h2>
+        </header>
+        <RecommendationResults
+          recommendations={recommendations}
+          totalPlaces={places.length}
+          onStartOver={handleStartOver}
+        />
+      </div>
+    );
+  }
 
   return (
     <div className="w-full max-w-xl space-y-6">
@@ -201,40 +224,6 @@ export default function TravelQuestionnaire() {
           Submit
         </button>
       </form>
-
-      {submitted && (
-        <section className="rounded-md border border-gray-200 bg-gray-50 p-4">
-          <h2 className="text-sm font-semibold text-gray-900">
-            Your answers
-          </h2>
-          <dl className="mt-3 space-y-2 text-sm text-gray-700">
-            <div>
-              <dt className="font-medium">Traveling with</dt>
-              <dd>{submitted.travelingWith || "—"}</dd>
-            </div>
-            <div>
-              <dt className="font-medium">Days here</dt>
-              <dd>{submitted.days || "—"}</dd>
-            </div>
-            <div>
-              <dt className="font-medium">Top interests</dt>
-              <dd>
-                {submitted.interests.length > 0
-                  ? submitted.interests.join(", ")
-                  : "—"}
-              </dd>
-            </div>
-            <div>
-              <dt className="font-medium">Ideal day</dt>
-              <dd>{submitted.idealDay || "—"}</dd>
-            </div>
-            <div>
-              <dt className="font-medium">Dietary needs</dt>
-              <dd>{submitted.dietary || "None"}</dd>
-            </div>
-          </dl>
-        </section>
-      )}
     </div>
   );
 }
