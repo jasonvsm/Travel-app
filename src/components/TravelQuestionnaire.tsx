@@ -61,10 +61,10 @@ export default function TravelQuestionnaire() {
   const maxInterestsReached = form.interests.length >= 3;
 
   return (
-    <div className="w-full max-w-xl space-y-8">
+    <div className="w-full max-w-xl space-y-6">
       <header>
-        <h1 className="text-3xl font-bold text-gray-900">Travel App</h1>
-        <p className="mt-2 text-gray-600">
+        <h2 className="text-lg font-semibold text-gray-900">Trip questionnaire</h2>
+        <p className="mt-1 text-sm text-gray-600">
           Tell us a bit about your trip so we can tailor recommendations.
         </p>
       </header>

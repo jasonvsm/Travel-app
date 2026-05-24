@@ -1,0 +1,519 @@
+[
+  {
+    "id": 1,
+    "name": "HIKAGE",
+    "category": "restaurant",
+    "neighborhood": "De Pijp",
+    "address": "Amsterdam",
+    "description": "Japanese restaurant in De Pijp known for an intimate, modern setting and a focused menu. Popular for date nights; reservations recommended. [PLACEHOLDER — replace with your own voice]",
+    "tags": [
+      "japanese",
+      "intimate",
+      "design-led",
+      "date-night"
+    ],
+    "price_level": "€€€",
+    "best_for": "couples",
+    "best_time": "evening",
+    "duration_min": 120,
+    "indoor_outdoor": "indoor",
+    "description_status": "placeholder"
+  },
+  {
+    "id": 2,
+    "name": "Café Saté",
+    "category": "restaurant",
+    "neighborhood": "De Pijp",
+    "address": "Amsterdam",
+    "description": "Long-running Indonesian restaurant near the Albert Cuyp area. Known for satay and a casual, no-frills atmosphere that draws locals and tourists alike. [PLACEHOLDER — replace with your own voice]",
+    "tags": [
+      "indonesian",
+      "casual",
+      "local-favorite"
+    ],
+    "price_level": "€€",
+    "best_for": "friends",
+    "best_time": "evening",
+    "duration_min": 90,
+    "indoor_outdoor": "indoor",
+    "description_status": "placeholder"
+  },
+  {
+    "id": 3,
+    "name": "Mitts Restaurant",
+    "category": "restaurant",
+    "neighborhood": "Centrum",
+    "address": "Amsterdam",
+    "description": "Contemporary tasting-menu restaurant in the city centre with a creative kitchen and design-forward room. Suited to special occasions. [PLACEHOLDER — replace with your own voice]",
+    "tags": [
+      "tasting-menu",
+      "creative",
+      "special-occasion",
+      "design-led"
+    ],
+    "price_level": "€€€",
+    "best_for": "couples",
+    "best_time": "evening",
+    "duration_min": 150,
+    "indoor_outdoor": "indoor",
+    "description_status": "placeholder"
+  },
+  {
+    "id": 4,
+    "name": "Hummingbird Coffee Amsterdam",
+    "category": "cafe",
+    "neighborhood": "Centrum",
+    "address": "Amsterdam",
+    "description": "Specialty coffee bar in the centre with a calm, daytime atmosphere. Good for a focused morning or solo work session. [PLACEHOLDER — replace with your own voice]",
+    "tags": [
+      "coffee",
+      "cozy",
+      "morning",
+      "remote-work"
+    ],
+    "price_level": "€",
+    "best_for": "solo",
+    "best_time": "morning",
+    "duration_min": 45,
+    "indoor_outdoor": "indoor",
+    "description_status": "placeholder"
+  },
+  {
+    "id": 5,
+    "name": "STRAAT Museum",
+    "category": "museum",
+    "neighborhood": "Noord",
+    "address": "NDSM, Amsterdam Noord",
+    "description": "Street art museum housed in a former NDSM shipyard warehouse in Amsterdam Noord. Industrial setting with large-scale works; reachable by free ferry from Centraal. [PLACEHOLDER — replace with your own voice]",
+    "tags": [
+      "street-art",
+      "rainy-day",
+      "kid-friendly",
+      "industrial"
+    ],
+    "price_level": "€€",
+    "best_for": "families",
+    "best_time": "afternoon",
+    "duration_min": 90,
+    "indoor_outdoor": "indoor",
+    "description_status": "placeholder"
+  },
+  {
+    "id": 6,
+    "name": "Kapitein Zeppos",
+    "category": "restaurant",
+    "neighborhood": "Centrum",
+    "address": "Amsterdam",
+    "description": "Belgian-style café tucked down a narrow alley in the centre. Known for its atmospheric, slightly hidden setting and classic European menu. [PLACEHOLDER — replace with your own voice]",
+    "tags": [
+      "belgian",
+      "hidden-gem",
+      "alley",
+      "atmospheric"
+    ],
+    "price_level": "€€",
+    "best_for": "couples",
+    "best_time": "evening",
+    "duration_min": 90,
+    "indoor_outdoor": "indoor",
+    "description_status": "placeholder"
+  },
+  {
+    "id": 7,
+    "name": "Fiaschetteria \"Pistoia\"",
+    "category": "restaurant",
+    "neighborhood": "Centrum",
+    "address": "Amsterdam",
+    "description": "Small Tuscan trattoria in the centre with a focused wine list and traditional menu. Intimate and often busy; reservations advised. [PLACEHOLDER — replace with your own voice]",
+    "tags": [
+      "italian",
+      "tuscan",
+      "wine",
+      "intimate",
+      "hidden-gem"
+    ],
+    "price_level": "€€",
+    "best_for": "couples",
+    "best_time": "evening",
+    "duration_min": 120,
+    "indoor_outdoor": "indoor",
+    "description_status": "placeholder"
+  },
+  {
+    "id": 8,
+    "name": "Café 't Mandje",
+    "category": "bar",
+    "neighborhood": "Red Light District",
+    "address": "Amsterdam",
+    "description": "Historic brown café in the Zeedijk area, one of the oldest LGBTQ bars in Amsterdam. Lively, characterful, and a piece of the city's social history. [PLACEHOLDER — replace with your own voice]",
+    "tags": [
+      "historic",
+      "lgbtq",
+      "iconic",
+      "local-favorite",
+      "late-night"
+    ],
+    "price_level": "€",
+    "best_for": "friends",
+    "best_time": "late-night",
+    "duration_min": 90,
+    "indoor_outdoor": "indoor",
+    "description_status": "placeholder"
+  },
+  {
+    "id": 9,
+    "name": "Tolhuistuin",
+    "category": "cultural-venue",
+    "neighborhood": "Noord",
+    "address": "Amsterdam Noord",
+    "description": "Cultural venue and garden in Amsterdam Noord, just across the IJ from Centraal. Hosts concerts, exhibitions, and outdoor events; the garden is a draw in warmer months. [PLACEHOLDER — replace with your own voice]",
+    "tags": [
+      "garden",
+      "concerts",
+      "outdoor",
+      "creative",
+      "summer"
+    ],
+    "price_level": "€€",
+    "best_for": "friends",
+    "best_time": "afternoon",
+    "duration_min": 120,
+    "indoor_outdoor": "both",
+    "description_status": "placeholder"
+  },
+  {
+    "id": 10,
+    "name": "TOZI Restaurant & Bar, Vondelpark",
+    "category": "restaurant",
+    "neighborhood": "Vondelpark",
+    "address": "Vondelpark, Amsterdam",
+    "description": "Italian restaurant set inside the Vondelpark pavilion. Large outdoor terrace; best in good weather and popular for weekend afternoons. [PLACEHOLDER — replace with your own voice]",
+    "tags": [
+      "park",
+      "outdoor",
+      "italian",
+      "scenic",
+      "summer"
+    ],
+    "price_level": "€€",
+    "best_for": "couples",
+    "best_time": "afternoon",
+    "duration_min": 90,
+    "indoor_outdoor": "both",
+    "description_status": "placeholder"
+  },
+  {
+    "id": 11,
+    "name": "De Sluyswacht",
+    "category": "bar",
+    "neighborhood": "Centrum",
+    "address": "Jodenbreestraat, Amsterdam",
+    "description": "Iconic leaning 17th-century lock-keeper's house turned café, perched at the water with a small canal-side terrace. Beer-focused; busy on sunny afternoons. [PLACEHOLDER — replace with your own voice]",
+    "tags": [
+      "historic",
+      "leaning-building",
+      "canal-view",
+      "iconic",
+      "terrace"
+    ],
+    "price_level": "€",
+    "best_for": "friends",
+    "best_time": "afternoon",
+    "duration_min": 60,
+    "indoor_outdoor": "both",
+    "description_status": "placeholder"
+  },
+  {
+    "id": 12,
+    "name": "Restaurant Entrepot",
+    "category": "restaurant",
+    "neighborhood": "Oost",
+    "address": "Amsterdam Oost",
+    "description": "Neighbourhood restaurant in Oost with a seasonal menu and a focus on natural wine. Small dining room with a quiet, design-conscious feel. [PLACEHOLDER — replace with your own voice]",
+    "tags": [
+      "seasonal",
+      "natural-wine",
+      "design-led",
+      "neighborhood"
+    ],
+    "price_level": "€€€",
+    "best_for": "couples",
+    "best_time": "evening",
+    "duration_min": 150,
+    "indoor_outdoor": "indoor",
+    "description_status": "placeholder"
+  },
+  {
+    "id": 13,
+    "name": "Filmtheater Kriterion",
+    "category": "cinema",
+    "neighborhood": "Centrum",
+    "address": "Amsterdam",
+    "description": "Student-run arthouse cinema near the Amstel. Screens international and independent films; café and bar attached. A long-standing Amsterdam institution. [PLACEHOLDER — replace with your own voice]",
+    "tags": [
+      "arthouse",
+      "student-run",
+      "rainy-day",
+      "evening",
+      "iconic"
+    ],
+    "price_level": "€",
+    "best_for": "solo",
+    "best_time": "evening",
+    "duration_min": 150,
+    "indoor_outdoor": "indoor",
+    "description_status": "placeholder"
+  },
+  {
+    "id": 14,
+    "name": "Hannekes Boom",
+    "category": "bar",
+    "neighborhood": "Centrum-East",
+    "address": "Dijksgracht, Amsterdam",
+    "description": "Waterfront bar and café near the Marineterrein. Outdoor wooden deck on the water; popular with a younger crowd in spring and summer. [PLACEHOLDER — replace with your own voice]",
+    "tags": [
+      "waterfront",
+      "outdoor",
+      "summer",
+      "lively",
+      "young-crowd"
+    ],
+    "price_level": "€€",
+    "best_for": "friends",
+    "best_time": "afternoon",
+    "duration_min": 120,
+    "indoor_outdoor": "both",
+    "description_status": "placeholder"
+  },
+  {
+    "id": 15,
+    "name": "Café de Ceuvel",
+    "category": "bar",
+    "neighborhood": "Noord",
+    "address": "Amsterdam Noord",
+    "description": "Sustainability-focused café on a reclaimed industrial site in Noord. Outdoor seating along the water; creative, off-the-beaten-path atmosphere. [PLACEHOLDER — replace with your own voice]",
+    "tags": [
+      "sustainable",
+      "creative",
+      "waterfront",
+      "outdoor",
+      "off-the-beaten-path"
+    ],
+    "price_level": "€€",
+    "best_for": "friends",
+    "best_time": "afternoon",
+    "duration_min": 120,
+    "indoor_outdoor": "both",
+    "description_status": "placeholder"
+  },
+  {
+    "id": 16,
+    "name": "Scheepskameel",
+    "category": "restaurant",
+    "neighborhood": "Centrum-East",
+    "address": "Kattenburgerstraat, Amsterdam",
+    "description": "Neighbourhood restaurant on the Marineterrein with a focused seasonal menu and a notable wine list. Calm, grown-up dining room. [PLACEHOLDER — replace with your own voice]",
+    "tags": [
+      "seasonal",
+      "wine",
+      "design-led",
+      "neighborhood",
+      "calm"
+    ],
+    "price_level": "€€€",
+    "best_for": "couples",
+    "best_time": "evening",
+    "duration_min": 150,
+    "indoor_outdoor": "indoor",
+    "description_status": "placeholder"
+  },
+  {
+    "id": 17,
+    "name": "Foodhallen",
+    "category": "food-hall",
+    "neighborhood": "West",
+    "address": "Amsterdam West",
+    "description": "Indoor food hall in the former tram depot in West. Multiple stalls offering different cuisines; lively and good for groups who can't agree on one thing. [PLACEHOLDER — replace with your own voice]",
+    "tags": [
+      "food-hall",
+      "lively",
+      "variety",
+      "casual",
+      "groups"
+    ],
+    "price_level": "€€",
+    "best_for": "friends",
+    "best_time": "evening",
+    "duration_min": 90,
+    "indoor_outdoor": "indoor",
+    "description_status": "placeholder"
+  },
+  {
+    "id": 18,
+    "name": "Pllek",
+    "category": "bar",
+    "neighborhood": "Noord",
+    "address": "NDSM-Plein, Amsterdam Noord",
+    "description": "Industrial-meets-beach venue on the IJ in Noord, made from repurposed shipping containers. Outdoor seating with water views; popular in summer. [PLACEHOLDER — replace with your own voice]",
+    "tags": [
+      "beach",
+      "waterfront",
+      "outdoor",
+      "summer",
+      "industrial"
+    ],
+    "price_level": "€€",
+    "best_for": "friends",
+    "best_time": "afternoon",
+    "duration_min": 120,
+    "indoor_outdoor": "both",
+    "description_status": "placeholder"
+  },
+  {
+    "id": 19,
+    "name": "De Belhamel",
+    "category": "restaurant",
+    "neighborhood": "Jordaan",
+    "address": "Brouwersgracht, Amsterdam",
+    "description": "Classic canal-side restaurant on the Brouwersgracht with an Art Nouveau interior and one of the more romantic terraces in the centre. Reservations recommended. [PLACEHOLDER — replace with your own voice]",
+    "tags": [
+      "canal-view",
+      "classic",
+      "romantic",
+      "art-nouveau",
+      "terrace"
+    ],
+    "price_level": "€€€",
+    "best_for": "couples",
+    "best_time": "evening",
+    "duration_min": 120,
+    "indoor_outdoor": "both",
+    "description_status": "placeholder"
+  },
+  {
+    "id": 20,
+    "name": "Restaurant De Kas",
+    "category": "restaurant",
+    "neighborhood": "Oost",
+    "address": "Frankendael Park, Amsterdam",
+    "description": "Greenhouse restaurant set in Frankendael Park with a daily-changing tasting menu built around produce grown on site. Special-occasion destination. [PLACEHOLDER — replace with your own voice]",
+    "tags": [
+      "farm-to-table",
+      "greenhouse",
+      "special-occasion",
+      "tasting-menu",
+      "scenic"
+    ],
+    "price_level": "€€€",
+    "best_for": "couples",
+    "best_time": "evening",
+    "duration_min": 150,
+    "indoor_outdoor": "indoor",
+    "description_status": "placeholder"
+  },
+  {
+    "id": 21,
+    "name": "Café 't Smalle",
+    "category": "bar",
+    "neighborhood": "Jordaan",
+    "address": "Egelantiersgracht, Amsterdam",
+    "description": "Quintessential Jordaan brown café on the Egelantiersgracht with a tiny canal-side terrace. Cosy interior, classic Amsterdam atmosphere; gets busy. [PLACEHOLDER — replace with your own voice]",
+    "tags": [
+      "brown-cafe",
+      "canal-view",
+      "historic",
+      "cozy",
+      "iconic"
+    ],
+    "price_level": "€",
+    "best_for": "couples",
+    "best_time": "afternoon",
+    "duration_min": 60,
+    "indoor_outdoor": "both",
+    "description_status": "placeholder"
+  },
+  {
+    "id": 22,
+    "name": "Brouwerij 't IJ - Proeflokaal de Molen",
+    "category": "brewery",
+    "neighborhood": "Oost",
+    "address": "Funenkade, Amsterdam",
+    "description": "Brewery and tasting room next to the De Gooyer windmill. Outdoor seating on warm days; one of the city's best-known craft breweries. [PLACEHOLDER — replace with your own voice]",
+    "tags": [
+      "beer",
+      "windmill",
+      "iconic",
+      "outdoor",
+      "local-favorite"
+    ],
+    "price_level": "€",
+    "best_for": "friends",
+    "best_time": "afternoon",
+    "duration_min": 90,
+    "indoor_outdoor": "both",
+    "description_status": "placeholder"
+  },
+  {
+    "id": 23,
+    "name": "Bar Botanique",
+    "category": "bar",
+    "neighborhood": "Oost",
+    "address": "Czaar Peterstraat, Amsterdam",
+    "description": "Tropical-themed bar and restaurant in Oost with a green, plant-filled interior. Cocktails, natural wine, and a lively evening crowd. [PLACEHOLDER — replace with your own voice]",
+    "tags": [
+      "tropical",
+      "design-led",
+      "lively",
+      "natural-wine",
+      "neighborhood"
+    ],
+    "price_level": "€€",
+    "best_for": "friends",
+    "best_time": "evening",
+    "duration_min": 90,
+    "indoor_outdoor": "indoor",
+    "description_status": "placeholder"
+  },
+  {
+    "id": 24,
+    "name": "Bakers & Roasters",
+    "category": "cafe",
+    "neighborhood": "De Pijp",
+    "address": "Amsterdam",
+    "description": "Brunch spot in De Pijp with a Kiwi-Brazilian menu. Popular on weekends; expect a queue if you don't go early. [PLACEHOLDER — replace with your own voice]",
+    "tags": [
+      "brunch",
+      "kiwi-brazilian",
+      "lively",
+      "weekend",
+      "queue-expect"
+    ],
+    "price_level": "€€",
+    "best_for": "friends",
+    "best_time": "morning",
+    "duration_min": 75,
+    "indoor_outdoor": "indoor",
+    "description_status": "placeholder"
+  },
+  {
+    "id": 25,
+    "name": "Glouglou",
+    "category": "wine-bar",
+    "neighborhood": "De Pijp",
+    "address": "Amsterdam",
+    "description": "Natural wine bar in De Pijp with a short menu of small plates. Intimate, conversational atmosphere; good for a low-key evening. [PLACEHOLDER — replace with your own voice]",
+    "tags": [
+      "natural-wine",
+      "small-plates",
+      "intimate",
+      "evening",
+      "hidden-gem"
+    ],
+    "price_level": "€€",
+    "best_for": "couples",
+    "best_time": "evening",
+    "duration_min": 90,
+    "indoor_outdoor": "indoor",
+    "description_status": "placeholder"
+  }
+]
